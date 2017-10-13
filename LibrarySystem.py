@@ -4,7 +4,7 @@ from wtforms import Form, StringField, TextAreaField, RadioField, SelectField
 app = Flask(__name__)
 
 
-@app.route('/new')
+@app.route('/home')
 def home():
     return render_template('home.html')
 
